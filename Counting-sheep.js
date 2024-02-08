@@ -3,16 +3,13 @@
 // We need a function that counts the number of sheep 
 // present in the array (true means present).
 
-
 function countSheeps(sheep) {
     let summ = 0
     sheep.forEach(element => {
-        if (element === undefined){
-            continue;
-        }  
-        summ += Number(element)
+        if (element === true){
+            summ += Number(element)
+        }
     });
     return summ
   }
-
-  console.log (countSheeps[undefined, true])
+  console.log(countSheeps([undefined, true]))
