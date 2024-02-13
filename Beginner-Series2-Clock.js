@@ -5,5 +5,6 @@
 // returns the time since midnight in milliseconds.
 
 function past(h, m, s){
-    //#Happy Coding! ^_^
+    return h*3.6e6 + m*6e4 + s * 1e3
   }
+  
