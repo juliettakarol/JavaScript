@@ -14,8 +14,9 @@ function disemvowel(str) {
         if ("aeiou".includes(str[j].toLowerCase())) continue
         strin += str[j]
     
-    }
+    } 
     return strin
+    //ffff    
   }
 
   console.log(disemvowel('aaaddd'))
