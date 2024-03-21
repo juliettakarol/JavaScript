@@ -5,9 +5,10 @@
 // in each array element. The function you will write needs to return the colour as 'key' and association as its 'value'.
 
 function colourAssociation(array){
-   
+    return array.map(a => {
+    return {[a[0]]: a[1]}
+   })
   }
-
 
 
  console.log(colourAssociation([["red", "energy"],["yellow", "creativity"]]))
